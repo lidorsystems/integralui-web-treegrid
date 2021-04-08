@@ -1,0 +1,28 @@
+{
+  "name": "integralui-web-treegrid",
+  "version": "21.1.0",
+  "description": "IntegralUI Web - TreeGrid is a native Web Component that displays hierarchical data structures in multiple columns.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidorsystems/integralui-web-treegrid.git"
+  },
+  "keywords": [
+    "treegrid",
+    "component",
+    "integralui",
+    "web-component",
+    "javascript",
+    "angular",
+    "react",
+    "vue"
+  ],
+  "author": "Lidor Systems",
+  "license": "SEE LICENSE in LICENSE.md",
+  "homepage": "https://github.com/lidorsystems/integralui-web-treegrid",
+  "bugs": {
+    "url": "https://github.com/lidorsystems/integralui-web-treegrid/issues"
+  }
+}
