@@ -1,10 +1,10 @@
-# IntegralUI Web - TreeGrid, v21.1
+# IntegralUI Web - TreeGrid, v21.4
 
 IntegralUI Web - TreeGrid is a native Web Component that displays hierarchical data structures in multiple columns. You can use it in Angular, React, Vue or any other JavaScript framework.
 
 <b>Note</b> This component is also part of [IntegralUI Web](https://github.com/lidorsystems/integralui-web.git) product suite.
 
-![IntegralUI Web - TreeGrid 21.1 - Native Web Component](https://www.lidorsystems.com/products/web/studio/features/treegrid/integralui-web-treegrid.png)
+![IntegralUI Web - TreeGrid 21.4 - Native Web Component](https://www.lidorsystems.com/products/web/studio/features/treegrid/integralui-web-treegrid.png)
 
 ## Main Features
 
@@ -41,7 +41,9 @@ or directly from NPM
 npm i integralui-web-treegrid
 ```
 
-Open your application and add a reference to a component you want to use. For example, if you are using the IntegralUI TreeGrid component:</p>
+<b>Note</b> A detailed information is available here: [How to Use IntegralUI Web Components](https://www.lidorsystems.com/help/integralui/web-components/introduction/installation/). Explains how to setup and use components for each framework: Angular, React or Vanilla JavaScript.
+
+In general you need to open your application and add a reference to a component you want to use. For example, if you are using the IntegralUI TreeGrid component:</p>
 
 ### Angular
 
@@ -85,7 +87,7 @@ Follow these steps:
 2. Set the resourcePath property of IntegralUI Web components to point to the location set in your /public folder. In this case, for TreeGrid for example:
 
 ```bash
-<IntegralUITreeGridComponent resourcePath="integralui-web-treegrid/icons"></IntegralUITreeGridComponent>
+<IntegralUITreeGridComponent resourcePath={'integralui-web-treegrid/icons'}></IntegralUITreeGridComponent>
 ```
 
 ### Vanilla JavaScript

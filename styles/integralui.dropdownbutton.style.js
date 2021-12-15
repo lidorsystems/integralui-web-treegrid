@@ -1,11 +1,12 @@
 import { c as css } from '../external/lit-element.js';
 
-export const iuiDropDownButtonDefaultStyle = css`
+const iuiDropDownButtonDefaultStyle = css`
     .iui-dropdownbutton {
         background: var(--dropdownbutton-background, #e5e5e5);
         border: var(--dropdownbutton-border, thin solid #cecece);
         border-color: var(--dropdownbutton-border-color, #cecece);
         border-radius: var(--dropdownbutton-border-radius, 3px);
+        border-width: var(--dropdownbutton-border-width, thin);
         color: var(--dropdownbutton-color, black);
         cursor: var(--dropdownbutton-cursor, default);
         display: var(--dropdownbutton-display, inline-block);
@@ -15,7 +16,7 @@ export const iuiDropDownButtonDefaultStyle = css`
         opacity: var(--dropdownbutton-opacity, 1);
         overflow: hidden;
         padding: var(--dropdownbutton-padding, 5px);
-        position: relative;
+        position: var(--dropdownbutton-position, relative);
         text-align: var(--dropdownbutton-text-align, center);
         vertical-align: var(--dropdownbutton-vertical-align, initial);
         width: var(--dropdownbutton-width, auto);
@@ -94,3 +95,5 @@ export const iuiDropDownButtonDefaultStyle = css`
         pointer-events: none;
     }
 `;
+
+export { iuiDropDownButtonDefaultStyle };

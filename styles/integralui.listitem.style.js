@@ -1,15 +1,24 @@
 import { c as css } from '../external/lit-element.js';
 
-export const iuiListItemDefaultStyle = css`
+const iuiListItemDefaultStyle = css`
     .iui-listitem {
         background: var(--listitem-background, transparent);
         border: var(--listitem-border, 2px solid transparent);
+        border-color:  var(--listitem-border-color, transparent);
+        border-radius: var(--listitem-border-radius, 1px);
+        border-width: var(--listitem-border-width, 2px);
         color: var(--listitem-color, black);
+        cursor: var(--listitem-cursor, default);
+        display: var(--listitem-display, block);
+        height: var(--listitem-height, auto);
         list-style-type: none;
-        overflow: hidden;
         margin: var(--listitem-margin, 0);
+        opacity: var(--listitem-opacity, 1);
+        overflow: hidden;
         padding: var(--listitem-padding, 0);
-        white-space: nowrap;
+        position: var(--listitem-position, relative);
+        white-space: var(--listitem-white-space, nowrap);
+        width: var(--listitem-width, auto);
     }
     .iui-listitem-general {
         list-style-type: none;
@@ -181,3 +190,5 @@ export const iuiListItemDefaultStyle = css`
         }
     }
 `;
+
+export { iuiListItemDefaultStyle };

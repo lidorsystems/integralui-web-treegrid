@@ -1,6 +1,6 @@
 import { c as css } from '../external/lit-element.js';
 
-export const iuiEditorsDefaultStyle = css`
+const iuiEditorsDefaultStyle = css`
     .iui-editor-checkbox {
         background-position: 0 0;
         background-repeat: no-repeat;
@@ -107,6 +107,10 @@ export const iuiEditorsDefaultStyle = css`
         height: 100%;
         width: calc(100% - 2px);
     }
+    /*.iui-editor-text::-webkit-search-cancel-button {
+        position: relative;
+        right: 0; 
+    }*/
     .iui-editor-text:focus {
         outline: none !important;
     }
@@ -124,3 +128,5 @@ export const iuiEditorsDefaultStyle = css`
         opacity: 0.4;
     }
 `;
+
+export { iuiEditorsDefaultStyle };
